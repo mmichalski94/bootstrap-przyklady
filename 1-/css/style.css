@@ -1,0 +1,42 @@
+body {
+    min-height: 2500px;
+}
+
+div {
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+
+/*
+div:nth-child(1) {
+    background-color: red;
+}
+
+div:nth-child(2) {
+    background-color: blue;
+}
+*/
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.item{
+    min-height: 600px;
+}

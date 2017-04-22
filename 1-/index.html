@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,13 +18,113 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+</head>
 
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-glowne" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">Nazwa firmy</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="menu-glowne">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+
+
+
+
+
+
+    <div class="container red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quia perferendis sequi? Amet a obcaecati dolorem est, distinctio eligendi velit veniam provident delectus, corrupti ducimus voluptatem fugiat atque similique perferendis!</div>
+
+    <div class="container-fluid blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quasi neque, perspiciatis dignissimos eos, alias quos iste dolorem possimus non assumenda ipsum consequuntur minima tempora itaque molestiae reprehenderit incidunt commodi.</div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-4 green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ipsa repellendus, facere fugiat eaque, officiis, voluptates aliquid rem, labore reiciendis pariatur tempore vero nesciunt odio eos dicta eum hic quidem?<a href="" class="btn btn-primary btn-lg">link</a></div>
+            <div class="col-lg-3 col-sm-4 purple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ipsa repellendus, facere fugiat eaque, officiis, voluptates aliquid rem, labore reiciendis pariatur tempore vero nesciunt odio eos dicta eum hic quidem?<a href="" class="btn btn-default btn-sm">link</a></div>
+            <div class="col-lg-3 col-sm-4 green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ipsa repellendus, facere fugiat eaque, officiis, voluptates aliquid rem, labore reiciendis pariatur tempore vero nesciunt odio eos dicta eum hic quidem?<a href="" class="btn btn-warning">link</a></div>
+            <div class="col-lg-3 col-sm-4 purple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ipsa repellendus, facere fugiat eaque, officiis, voluptates aliquid rem, labore reiciendis pariatur tempore vero nesciunt odio eos dicta eum hic quidem?<a href="" class="btn btn-danger btn-xs">link</a></div>
+            <!-- wady bootstrapa? nie sprawdza się przy niestandadowych projektach-->
+        </div>
+    </div>
+    
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" style="background-image:url(img/maxresdefault.jpg)">
+      <!-- styl inline'owy w tym przypadku jest lepszym rozwiązaniem-->
+      <div class="carousel-caption">
+        <h2>Somebody</h2>
+        <a href="" class="btn btn-default">once told me</a>
+      </div>
+    </div>
+    <div class="item" style="background-image:url(img/maxresdefault.jpg)">
+      <div class="carousel-caption">
+        <h2>that the world</h2>
+         <a href="" class="btn btn-default">is gonna roll me</a>
+      </div>
+    </div>
+   
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  </body>
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
